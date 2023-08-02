@@ -107,7 +107,7 @@ export default function recursosHumanos() {
                   <a href="/pdi-explorer">
                     <h1>PDI to Explorer</h1>
                     <div>
-                      <p className="text-sm">Ideias para ajudar seu colaborador a traçar caminhos para o desenvolvimento individual e aumentar a motivação</p>
+                      <p className="text-sm">Ideias para ajudar seu colaborador a traçar caminhos para o desenvolvimento individual e aumentar a motivação.</p>
                     </div>
                   </a>
                 </div>
