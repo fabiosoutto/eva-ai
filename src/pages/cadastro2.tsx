@@ -77,6 +77,7 @@ export default function Cadastro2() {
                 placeholder="Seu cargo/função"
               />
               <Dropdown
+                name="people"
                 options={options}
                 value={selectedOption}
                 onChange={handleOptionChange}

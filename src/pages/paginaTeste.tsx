@@ -1,7 +1,6 @@
 import Card2 from "@/components/Card2";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import ModalTeste from "@/components/ModalTeste";
 import NavMenu from "@/components/NavMenu";
 import { useState } from "react";
 
@@ -158,8 +157,7 @@ export default function paginaTeste() {
             </div>
 
           </div>
-          {/*  MODAL LEAD CAPTURE ... os locais onde deve colocar o modal */}
-          <ModalTeste isOpen={openModal} setCloseModal={() => setOpenModal(!openModal)} />
+          
         </div>
         
         

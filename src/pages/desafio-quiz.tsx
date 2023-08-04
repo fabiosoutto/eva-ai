@@ -111,7 +111,7 @@ export default function DesafioQuiz() {
                     
 
                   <input className="w-[320px] p-3 bg-transparent border rounded outline-none" type="text" placeholder="Qual o tema do curso?" value={input1} onChange={(e) => setInput1(e.target.value)} />
-                  <Dropdown options={options} value={selectedOption} onChange={handleOptionChange} />
+                  <Dropdown name="name" options={options} value={selectedOption} onChange={handleOptionChange} />
                   
               </div>
 
