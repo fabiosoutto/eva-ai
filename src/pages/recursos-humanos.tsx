@@ -21,8 +21,8 @@ export default function recursosHumanos() {
             
           </div>
 
-          <div className="flex justify-center items-center gap-1 p-5">
-            <h1 className="font-extrabold text-[40px]">Ferramentas para Recursos Humanos</h1>
+          <div className="flex justify-center items-center p-5">
+            <h1 className="font-extrabold text-[30px]">Ferramentas para Recursos Humanos</h1>
           </div>
 
           <div className="gap-1 p-5 mr-5 flex flex-col md:w-full items-center">

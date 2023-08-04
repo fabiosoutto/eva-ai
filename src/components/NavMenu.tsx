@@ -5,7 +5,7 @@ export default function NavMenu() {
         <section className="flex items-center justify-center">
 
             <div className="">
-                <ul className="p-7">
+                <ul className="p-1">
                 <li className="text-[17px] font-semibold">Escolha os Insignts:</li>
                 <Card2>
                     <li>

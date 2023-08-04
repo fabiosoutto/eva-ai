@@ -1,6 +1,11 @@
 export default function Header() {
     return (
-        <section className="flex flex-wrap items-center justify-center h-[120]">
+        <section className={`
+            flex md:flex-wrap
+            md:items-center md:justify-center
+            justify-between
+            md:h-[120] p-2
+        `}>
 
             <div className="flex flex-col">
                 <a href="https://evolluo.com/" target="_blank">
@@ -10,7 +15,7 @@ export default function Header() {
             </div>
 
             <div className="flex flex-col">
-                <span className="font-extrabold text-[20px]">EVA AI Ferramenta para RH e T&D</span>
+                <span className="font-extrabold md:text-[20px]">EVA AI Ferramenta para RH e T&D</span>
             </div>
 
             <div className="flex flex-col mt-4">

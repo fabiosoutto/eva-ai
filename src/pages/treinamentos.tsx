@@ -19,8 +19,8 @@ export default function Treinamentos() {
             
           </div>
 
-          <div className="flex justify-center items-center gap-1 p-5">
-            <h1 className="font-extrabold text-[40px]">Treinamentos para sua Empresa</h1>
+          <div className="flex justify-center items-center p-5">
+            <h1 className="font-extrabold text-[30px]">Treinamentos para sua Empresa</h1>
           </div>
 
           <div className="gap-1 p-5 mr-5 flex flex-col md:w-full items-center">
