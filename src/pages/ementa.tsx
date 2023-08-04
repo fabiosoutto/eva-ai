@@ -65,10 +65,6 @@ export default function Ementa() {
     }
   };
   
-  
-  //controla o formulário do lead
-  //const [openModal, setOpenModal] = useState(false);
-
 
     return (
       <section>
@@ -119,7 +115,7 @@ export default function Ementa() {
               <div>
                 
               </div>
-              </form>
+            </form>
               {apiResponse && ( // Verificar se apiResponse possui um valor (resposta da API)
                 <div>
                   <textarea
@@ -134,12 +130,10 @@ export default function Ementa() {
                   ></textarea>
                 </div>
               )}
-            
 
           </div>
 
         </div>
-        
         
         <Footer />
       </section>
