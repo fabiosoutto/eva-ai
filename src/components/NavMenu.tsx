@@ -1,3 +1,4 @@
+import Link from "next/link"
 import Card2 from "./Card2"
 
 export default function NavMenu() {
@@ -9,16 +10,16 @@ export default function NavMenu() {
                 <li className="text-[17px] font-semibold">Escolha os Insignts:</li>
                 <Card2>
                     <li>
-                        <a href="/recursos-humanos">
+                        <Link href="/recursos-humanos">
                             <h2 className="text-sm">Ferramentas para Recursos Humanos</h2>
-                        </a>
+                        </Link>
                     </li>
                 </Card2>
                 <Card2>
                     <li>
-                        <a href="/treinamentos">
+                        <Link href="/treinamentos">
                             <h2 className="text-sm">Treinamentos para sua Empresa</h2>    
-                        </a>
+                        </Link>
                     </li>
                 </Card2>
                 </ul>

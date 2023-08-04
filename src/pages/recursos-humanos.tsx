@@ -2,6 +2,7 @@ import Card2 from "@/components/Card2";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import NavMenu from "@/components/NavMenu";
+import Link from "next/link";
 
 export default function recursosHumanos() {
 
@@ -32,12 +33,12 @@ export default function recursosHumanos() {
                 <Card2>
                   <img className="mr-[20px]" src="/images/evolluo-arrow.png" alt="" width={20} height={20}/>
                   <div className="flex flex-col">
-                  <a href="/assistente-aprendizagem">
+                  <Link href="/assistente-aprendizagem">
                     <h1>Assistente de Aprendizagem</h1>
                     <div>
                       <p className="text-sm">Crie um design de e-learning baseado em um tópico e público alvo</p>
                     </div>
-                  </a>
+                  </Link>
                   </div>
                 </Card2>
               
@@ -45,12 +46,12 @@ export default function recursosHumanos() {
               <Card2>
                 <img className="mr-[20px]" src="/images/evolluo-arrow.png" alt="" width={20} height={20}/>
                 <div className="flex flex-col">
-                  <a href="/brainstorming">
+                  <Link href="/brainstorming">
                     <h1>Brainstorming</h1>
                     <div>
                       <p className="text-sm">Ferramenta de brainstorming que auxilia na criação de ideias</p>
                     </div>
-                  </a>
+                  </Link>
                   
                 </div>
               </Card2>
@@ -58,96 +59,96 @@ export default function recursosHumanos() {
               <Card2>
                 <img className="mr-[20px]" src="/images/evolluo-arrow.png" alt="" width={20} height={20}/>
                 <div className="flex flex-col">
-                  <a href="/ferramenta-smart">
+                  <Link href="/ferramenta-smart">
                     <h1>Ferramenta Smart</h1>
                     <div>
                       <p className="text-sm">Desenvolva um objetivo de aprendizado SMART para um determinado curso e tópico</p>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </Card2>
 
               <Card2>
                 <img className="mr-[20px]" src="/images/evolluo-arrow.png" alt="" width={20} height={20}/>
                 <div className="flex flex-col">
-                  <a href="/ferramenta-simplifique">
+                  <Link href="/ferramenta-simplifique">
                     <h1>Ferramenta Simplifique</h1>
                     <div>
                       <p className="text-sm">Reescreva uma frase para ficar mais fácil de entender</p>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </Card2>
 
               <Card2>
                 <img className="mr-[20px]" src="/images/evolluo-arrow.png" alt="" width={20} height={20}/>
                 <div className="flex flex-col">
-                  <a href="/mapas-mentais">
+                  <Link href="/mapas-mentais">
                     <h1>Mapas Mentais</h1>
                     <div>
                       <p className="text-sm">Desenvolva um mapa mental para um programa de treinamento</p>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </Card2>
 
               <Card2>
                 <img className="mr-[20px]" src="/images/evolluo-arrow.png" alt="" width={20} height={20}/>
                 <div className="flex flex-col">
-                  <a href="/compreensao">
+                  <Link href="/compreensao">
                     <h1>Para Melhorar a Compreensão</h1>
                     <div>
                       <p className="text-sm">Ferramenta para melhorar a compreensão em um determinado assunto</p>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </Card2>
 
               <Card2>
                 <img className="mr-[20px]" src="/images/evolluo-arrow.png" alt="" width={20} height={20}/>
                 <div className="flex flex-col">
-                  <a href="/pdi-explorer">
+                  <Link href="/pdi-explorer">
                     <h1>PDI to Explorer</h1>
                     <div>
                       <p className="text-sm">Ideias para ajudar seu colaborador a traçar caminhos para o desenvolvimento individual e aumentar a motivação.</p>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </Card2>
 
               <Card2>
                 <img className="mr-[20px]" src="/images/evolluo-arrow.png" alt="" width={20} height={20}/>
                 <div className="flex flex-col">
-                  <a href="/planos-aprendizagem">
+                  <Link href="/planos-aprendizagem">
                     <h1>Planos de Aprendizagem</h1>
                     <div>
                       <p className="text-sm">Desenvolva um plano de aprendizagem</p>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </Card2>
 
               <Card2>
                 <img className="mr-[20px]" src="/images/evolluo-arrow.png" alt="" width={20} height={20}/>
                 <div className="flex flex-col">
-                  <a href="/storytelling">
+                  <Link href="/storytelling">
                     <h1>Storytelling para Aprendizagem</h1>
                     <div>
                       <p className="text-sm">Ferramenta para criar histórias envolventes que ensinam sobre determinado assunto</p>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </Card2>
 
               <Card2>
                 <img className="mr-[20px]" src="/images/evolluo-arrow.png" alt="" width={20} height={20}/>
                 <div className="flex flex-col">
-                  <a href="/tools-explorer">
+                  <Link href="/tools-explorer">
                     <h1>Tools Explorer</h1>
                     <div>
                       <p className="text-sm">Ideias para encontrar ferramentas que resolvam problemas reais na empresa</p>
                     </div>
-                  </a>
+                  </Link>
                 </div>
               </Card2>
 

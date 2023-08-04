@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Header() {
     return (
         <section className={`
@@ -8,9 +10,9 @@ export default function Header() {
         `}>
 
             <div className="flex flex-col">
-                <a href="https://evolluo.com/" target="_blank">
+                <Link href="https://evolluo.com/" target="_blank">
                     <img src="/images/v2.png" width={200} height={200}/>
-                </a>
+                </Link>
                 
             </div>
 
