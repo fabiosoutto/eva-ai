@@ -12,7 +12,7 @@ export default function Home() {
       <div className="flex flex-col items-center justify-center w-[100%]">
         <p className="text-[25px] md:text-[40px] mb-[30px]">Seja bem-vindo(a) a <span className="font-extrabold text-[#2188E8]">Eva!</span></p>
         <h2 className="text-[30px] md:text-[60px]">Resolva tarefas do <span className="font-extrabold text-[#2188E8]">RH e T&D</span></h2>
-        <h2 className="text-[30px] md:text-[60px] mb-[50px]">e crie conteúdos em segundos</h2>
+        <h2 className="text-[30px] md:text-[60px] mb-[50px]">e crie conteúdos em segundos.</h2>
         
         <div className="md:w-full flex flex-col items-center">
           
