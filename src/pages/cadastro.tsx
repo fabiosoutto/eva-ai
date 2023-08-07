@@ -1,4 +1,4 @@
-"use client";
+//"use client";
 import Button from "@/components/Button";
 import Card2 from "@/components/Card2";
 import Footer from "@/components/Footer";
