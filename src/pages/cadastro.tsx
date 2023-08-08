@@ -19,9 +19,9 @@ export default function Cadastro() {
 
   //valores iniciais do Formik
   const initialValues = {
+    email: "",
     name: "",
     surname: "",
-    email: "",
     whatsapp: "",
     company: "",
     ocupation: "",
@@ -77,9 +77,9 @@ export default function Cadastro() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
+          email: values.email,
           name: values.name,
           surname: values.surname,
-          email: values.email,
           whatsapp: values.whatsapp,
           company: values.company,
           ocupation: values.ocupation,
@@ -91,7 +91,7 @@ export default function Cadastro() {
 
         if (result.status === 201) {
           alert(result.message);
-          router.push("/login");
+          router.push("/treinamentos");
         } else {
           renderError(result.message);
           resetForm();
@@ -181,6 +181,9 @@ export default function Cadastro() {
                     disabled={isFormSubmitting}
                     className="bg-[#266BAB] hover:bg-[#2188E8] mt-[25px] p-2 rounded" 
                   />
+                  {!values.name && !values.surname && !values.email && !values.whatsapp && !values.company && !values.ocupation && !values.people && !values.password && error && (
+                    <span className="text-red-500 text-sm text-center">{error}</span>
+                  )}
 
                 </Form>
               )}

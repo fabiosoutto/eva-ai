@@ -3,10 +3,12 @@ import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
 import connect from "@/utils/db";
 
-export async function POST(req) {
+
+export default async function POST(req) {
   try {
-    const { name, surname, email, whatsapp, company, ocupation, people, password } = await req.json();
+    const { email, name, surname, whatsapp, company, ocupation, people, password } = await req.json();
     await connect();
+    console.log(req);
 
     const emailExists = await User.findOne({ email });
     if (emailExists) {
@@ -19,9 +21,9 @@ export async function POST(req) {
     const hashedPassword = await bcrypt.hash(password, 5);
 
     const newUser = new User({
+      email,
       name,
       surname,
-      email,
       whatsapp,
       company,
       ocupation,
@@ -43,3 +45,4 @@ export async function POST(req) {
     });
   }
 }
+

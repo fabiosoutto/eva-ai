@@ -19,14 +19,14 @@ export default function Home() {
         
         <div className="md:w-full flex flex-col items-center">
           
-          <Link href="/treinamentos">
+          <Link href="https://evolluo.com/cadastro-eva-ai/">
             <Card>
               <img className="mr-[20px]" src="/images/evolluo-arrow.png" alt="" width={30} height={30}/>
                 <h2>Ferramentas para Criar Treinamentos na Empresa</h2>
             </Card>
           </Link>
 
-          <Link href="/recursos-humanos">
+          <Link href="https://evolluo.com/cadastro-eva-ai/">
             <Card>
               <img className="mr-[20px]" src="/images/evolluo-arrow.png" alt="" width={30} height={30}/>
                 <h2>Ferramentas para Recursos Humanos</h2>
