@@ -108,7 +108,8 @@ export default function ToolsExplorer() {
                     value={apiResponse}
                     className={`
                       answer-box mt-[30px] border border-white rounded p-4 bg-transparent 
-                      w-full h-[250px] outline-none text-[#fff] resize-none overflow-y-auto
+                      w-full h-[350px] md:h-[450px] outline-none text-[#fff] 
+                      resize-none overflow-y-auto
                     `}
                     id="answer-box"
                     readOnly

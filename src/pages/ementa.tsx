@@ -70,72 +70,94 @@ export default function Ementa() {
       <section>
         <Header />
 
-        <div className={`
+        <div
+          className={`
              w-[100%]
              flex flex-wrap
               m-0"
-            `}>
+            `}
+        >
           <div className="gap-1 p-5 mr-5">
-
             <NavMenu />
-            
           </div>
 
           <div className="gap-1 p-5 mr-5 w-[900px]">
-            <h1 className="font-extrabold text-[25px]">Ementa para um novo curso</h1>
+            <h1 className="font-extrabold text-[25px]">
+              Ementa para um novo curso
+            </h1>
             <p>Ideias para criar uma ementa para um novo curso</p>
 
             <div className="flex flex-wrap mt-[20px] mb-[15px]">
-                <h1>Preencha os filtros:</h1>
+              <h1>Preencha os filtros:</h1>
             </div>
 
             <form action="" onSubmit={handleSubmit}>
               <div className="flex flex-wrap gap-3">
-                  <input type="hidden" defaultValue={promptFormat} />
-                    
+                <input type="hidden" defaultValue={promptFormat} />
 
-                  <input className="w-[320px] p-3 bg-transparent border rounded outline-none" type="text" placeholder="Qual o tema do curso?" value={cursoTema} onChange={(e) => setCursoTema(e.target.value)} />
-                  <input className="w-[320px] p-3 bg-transparent border rounded outline-none" type="text" placeholder="Qual o objetivo do curso?" value={cursoObjetivo} onChange={(e) => setCursoObjetivo(e.target.value)} />
+                <input
+                  className="w-[320px] p-3 bg-transparent border rounded outline-none"
+                  type="text"
+                  placeholder="Qual o tema do curso?"
+                  value={cursoTema}
+                  onChange={(e) => setCursoTema(e.target.value)}
+                />
+                <input
+                  className="w-[320px] p-3 bg-transparent border rounded outline-none"
+                  type="text"
+                  placeholder="Qual o objetivo do curso?"
+                  value={cursoObjetivo}
+                  onChange={(e) => setCursoObjetivo(e.target.value)}
+                />
               </div>
 
               <div className="flex flex-wrap gap-3 mt-[15px]">
-                  <input className="w-[320px] p-3 bg-transparent border rounded outline-none" type="text" placeholder="Qual público quero atingir?" value={cursoPublico} onChange={(e) => setCursoPublico(e.target.value)} />
-                  <input className="w-[320px] p-3 bg-transparent border rounded outline-none" type="text" placeholder="Qual o tempo de duração do curso?" value={cursoDuracao} onChange={(e) => setCursoDuracao(e.target.value)} />
+                <input
+                  className="w-[320px] p-3 bg-transparent border rounded outline-none"
+                  type="text"
+                  placeholder="Qual público quero atingir?"
+                  value={cursoPublico}
+                  onChange={(e) => setCursoPublico(e.target.value)}
+                />
+                <input
+                  className="w-[320px] p-3 bg-transparent border rounded outline-none"
+                  type="text"
+                  placeholder="Qual o tempo de duração do curso?"
+                  value={cursoDuracao}
+                  onChange={(e) => setCursoDuracao(e.target.value)}
+                />
               </div>
 
               <div>
-                  <button 
-                    type="submit" 
-                    className="bg-[#266BAB] hover:bg-[#2188E8] mt-[15px] p-2 rounded"
-                    disabled={isLoading}
-                  >
-                      {isLoading ? 'Aguarde...' : 'Enviar'}
-                  </button>
+                <button
+                  type="submit"
+                  className="bg-[#266BAB] hover:bg-[#2188E8] mt-[15px] p-2 rounded"
+                  disabled={isLoading}
+                >
+                  {isLoading ? "Aguarde..." : "Enviar"}
+                </button>
               </div>
-              <div>
-                
-              </div>
+              <div></div>
             </form>
-              {apiResponse && ( // Verificar se apiResponse possui um valor (resposta da API)
-                <div>
-                  <textarea
-                    value={apiResponse}
-                    className={`
-                      answer-box mt-[30px] border border-white rounded p-4 bg-transparent 
-                      w-full h-[250px] outline-none text-[#fff] resize-none overflow-y-auto
-                    `}
-                    id="answer-box"
-                    readOnly
-                    placeholder="Aguardando..."
-                  ></textarea>
-                </div>
-              )}
-
+            {apiResponse && ( // Verificar se apiResponse possui um valor (resposta da API)
+              <div>
+                <textarea
+                  value={apiResponse}
+                  className={`
+                    answer-box mt-[30px] border border-white rounded p-4 bg-transparent 
+                    w-full h-[350px] md:h-[450px] outline-none text-[#fff] 
+                    resize-none overflow-y-auto
+                  `}
+                  id="answer-box"
+                  readOnly
+                  placeholder="Aguardando..."
+                ></textarea>
+              </div>
+            )}
           </div>
-
         </div>
-        
+
         <Footer />
       </section>
-    )
+    );
   }
