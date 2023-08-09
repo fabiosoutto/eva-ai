@@ -1,3 +1,14 @@
+# Eva-AI Ferramenta de RH e T&D
+
+A Eva é uma ferramenta de inteligência artificial que ajuda profissionais de Recursos Humanos em várias tarefas do dia a dia.
+
+É só perguntar a ela e você terá em segundos projetos prontos para quase 100 tarefas do RH e T&D, entre elas, a elaboração de um PDI, plano de carreira, requisitos para contratações, criação de treinamentos, ferramentas para resolver problemas e muito mais.
+
+Ela foi desenvolvida em Next.JS com uso de Typescript, Tailwind.CSS e integrada ao ChatGPT 3.5 turbo da OpenAI.
+Desenvolvida para a Evolluo - Plataforma LXP para Educação Corporativa e pode ser acessada gratuitamente pelo link: https://eva.evolluo.com
+
+-----------------------------------------------------------------------------------------------------
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -36,7 +47,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# eva-ai
-# eva-ai
-eva-ai
-eva-ai
+
+
+
